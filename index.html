@@ -3,25 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Research Papers</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>My Resume</h1>
-    <div id="papers">
-        <h2>My Papers</h2>
-        <ul id="paper-list">
-            <!-- Papers will be displayed here dynamically -->
-        </ul>
-    </div>
-    <div id="keywords">
-        <h3>Keywords</h3>
+    <header>
+        <h1>Research Papers by K. Sudhir</h1>
+        <p>Click on a keyword to explore papers by topic.</p>
+    </header>
+
+    <section id="keywords">
+        <h2>Keywords</h2>
         <ul>
-            <li><a href="#" data-keyword="privacy">Privacy</a></li>
-            <li><a href="#" data-keyword="AI">AI</a></li>
-            <li><a href="#" data-keyword="economics">Economics</a></li>
+            <li><a href="#" data-keyword="advertising">Advertising</a></li>
+            <li><a href="#" data-keyword="digital-marketing">Digital Marketing</a></li>
+            <li><a href="#" data-keyword="game-theory">Game Theory</a></li>
+            <li><a href="#" data-keyword="emerging-markets">Emerging Markets</a></li>
+            <li><a href="#" data-keyword="consumer-behavior">Consumer Behavior</a></li>
+            <li><a href="#" data-keyword="structural-models">Structural Models</a></li>
         </ul>
-    </div>
+    </section>
+
+    <section id="papers">
+        <h2>Research Papers</h2>
+        <ul id="paper-list">
+            <!-- Papers will be dynamically inserted here -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>Source: Yale School of Management</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,8 +1,30 @@
 document.addEventListener("DOMContentLoaded", () => {
     const papers = [
-        { title: "Paper 1 on Privacy", keywords: ["privacy", "GDPR"] },
-        { title: "Paper 2 on AI and Economics", keywords: ["AI", "economics"] },
-        { title: "Paper 3 on Data Regulation", keywords: ["GDPR", "economics"] }
+        {
+            title: "Big Data and Marketing Analytics in Digital, Mobile, and Social Media",
+            link: "https://faculty.som.yale.edu/ksudhir/papers/big-data-and-marketing-analytics",
+            keywords: ["digital-marketing", "advertising"]
+        },
+        {
+            title: "A Structural Model of Sponsored Search Advertising",
+            link: "https://faculty.som.yale.edu/ksudhir/papers/structural-model-sponsored-search",
+            keywords: ["advertising", "structural-models"]
+        },
+        {
+            title: "Consumer Search and Choice Under Limited Attention",
+            link: "https://faculty.som.yale.edu/ksudhir/papers/consumer-search-choice",
+            keywords: ["consumer-behavior", "game-theory"]
+        },
+        {
+            title: "Estimating Dynamic Models of Consumer Demand for Durable Goods",
+            link: "https://faculty.som.yale.edu/ksudhir/papers/dynamic-models-demand",
+            keywords: ["structural-models", "consumer-behavior"]
+        },
+        {
+            title: "Marketing in Emerging Economies: A Review of the Literature",
+            link: "https://faculty.som.yale.edu/ksudhir/papers/marketing-emerging-economies",
+            keywords: ["emerging-markets"]
+        }
     ];
 
     const paperList = document.getElementById("paper-list");
@@ -17,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         filteredPapers.forEach(paper => {
             const li = document.createElement("li");
-            li.textContent = paper.title;
+            li.innerHTML = `<a href="${paper.link}" target="_blank">${paper.title}</a>`;
             paperList.appendChild(li);
         });
     };
