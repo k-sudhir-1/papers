@@ -1,69 +1,47 @@
-document.addEventListener("DOMContentLoaded", async () => {
-    try {
-        // Fetch JSON data from papers.json
-        const response = await fetch("papers.json");
-        const data = await response.json();
 
-        // Extract keywords and papers from JSON
-        const { keywords, papers } = data;
+document.addEventListener("DOMContentLoaded", () => {
+    fetch('papers.json')
+        .then(response => response.json())
+        .then(data => {
+            const papers = data.papers;
+            const substantiveList = document.getElementById('substantive-list');
+            const methodologicalList = document.getElementById('methodological-list');
+            const paperList = document.getElementById('paper-list');
 
-        // Select keyword containers
-        const substantiveKeywordsContainer = document.querySelector("#substantive-keywords ul");
-        const methodologicalKeywordsContainer = document.querySelector("#methodological-keywords ul");
+            const keywordMap = { substantive: new Set(), methodological: new Set() };
 
-        // Select paper list container
-        const paperList = document.getElementById("paper-list");
-
-        // Function to populate keyword lists
-        const populateKeywords = (keywordArray, container) => {
-            keywordArray.forEach(keyword => {
-                const li = document.createElement("li");
-                li.innerHTML = `<a href="#" data-keyword="${keyword}">${keyword}</a>`;
-                container.appendChild(li);
+            papers.forEach(paper => {
+                paper.substantive_keywords.forEach(keyword => keywordMap.substantive.add(keyword));
+                paper.methodological_keywords.forEach(keyword => keywordMap.methodological.add(keyword));
             });
-        };
 
-        // Populate Substantive and Methodological keywords
-        populateKeywords(keywords.substantive, substantiveKeywordsContainer);
-        populateKeywords(keywords.methodological, methodologicalKeywordsContainer);
+            const renderKeywords = (keywords, container, type) => {
+                keywords.forEach(keyword => {
+                    const li = document.createElement('li');
+                    li.textContent = keyword;
+                    li.addEventListener('click', () => filterPapers(type, keyword));
+                    container.appendChild(li);
+                });
+            };
 
-        // Function to display papers based on selected keyword
-        const displayPapers = (filterKeyword = null) => {
-            paperList.innerHTML = ""; // Clear the list
-            const filteredPapers = filterKeyword
-                ? papers.filter(paper => paper.keywords.includes(filterKeyword))
-                : papers;
+            renderKeywords(keywordMap.substantive, substantiveList, 'substantive');
+            renderKeywords(keywordMap.methodological, methodologicalList, 'methodological');
 
-            if (filteredPapers.length === 0) {
-                paperList.innerHTML = "<li>No papers found for this keyword.</li>";
-            } else {
+            const renderPapers = (filteredPapers) => {
+                paperList.innerHTML = '';
                 filteredPapers.forEach(paper => {
-                    const li = document.createElement("li");
-                    li.innerHTML = `<a href="${paper.link}" target="_blank">${paper.title}</a>`;
+                    const li = document.createElement('li');
+                    li.innerHTML = `<a href="${paper.url}" target="_blank">${paper.title}</a>`;
                     paperList.appendChild(li);
                 });
-            }
-        };
+            };
+            renderPapers(papers);
 
-        // Attach event listeners to keyword links
-        document.querySelectorAll("#keywords a").forEach(link => {
-            link.addEventListener("click", (e) => {
-                e.preventDefault(); // Prevent default link behavior
-                const keyword = e.target.getAttribute("data-keyword");
-
-                // Highlight the selected keyword
-                document.querySelectorAll("#keywords a").forEach(l => l.classList.remove("active"));
-                e.target.classList.add("active");
-
-                // Filter and display papers based on the selected keyword
-                displayPapers(keyword);
-            });
+            const filterPapers = (type, keyword) => {
+                const filtered = papers.filter(paper =>
+                    paper[`${type}_keywords`].includes(keyword)
+                );
+                renderPapers(filtered);
+            };
         });
-
-        // Display all papers by default
-        displayPapers();
-        console.log("Keywords and papers successfully loaded!");
-    } catch (error) {
-        console.error("Error loading or processing JSON file:", error);
-    }
 });

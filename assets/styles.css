@@ -1,0 +1,23 @@
+/* styles.css */
+header, section {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    cursor: pointer;
+    padding: 5px;
+}
+
+ul li:hover {
+    background-color: #e0f0ff; /* Highlight on hover */
+}
+
+h1, h2, h3 {
+    text-align: center; /* Center all headings */
+}

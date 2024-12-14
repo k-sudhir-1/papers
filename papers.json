@@ -1,43 +1,40 @@
 {
-    "keywords": {
-        "substantive": ["Retailing", "Emerging Markets", "Organization Buying", "Car Markets"],
-        "methodological": ["Structural Models", "Game Theory", "Quasi-Experimental Machine Learning", "Large Language Models"]
-    },
     "papers": [
         {
-            "title": "Retailing Dynamics",
-            "link": "https://example.com/retailing-dynamics",
-            "keywords": ["Retailing"]
+            "title": "Understanding Consumer Behavior in Online Markets",
+            "url": "https://faculty.som.yale.edu/ksudhir/papers/consumer_behavior",
+            "substantive_keywords": [
+                "Consumer Behavior",
+                "Online Markets"
+            ],
+            "methodological_keywords": [
+                "Econometrics",
+                "Behavioral Models"
+            ]
         },
         {
-            "title": "Marketing in Emerging Economies",
-            "link": "https://example.com/emerging-markets",
-            "keywords": ["Emerging Markets"]
+            "title": "Data Privacy and Market Regulation",
+            "url": "https://faculty.som.yale.edu/ksudhir/papers/data_privacy",
+            "substantive_keywords": [
+                "Privacy",
+                "Market Regulation"
+            ],
+            "methodological_keywords": [
+                "Structural Models",
+                "Policy Analysis"
+            ]
         },
         {
-            "title": "B2B Organization Buying Decisions",
-            "link": "https://example.com/organization-buying",
-            "keywords": ["Organization Buying"]
-        },
-        {
-            "title": "Structural Models for Car Markets",
-            "link": "https://example.com/car-markets",
-            "keywords": ["Car Markets", "Structural Models"]
-        },
-        {
-            "title": "Game Theory in Marketing",
-            "link": "https://example.com/game-theory",
-            "keywords": ["Game Theory"]
-        },
-        {
-            "title": "Quasi-Experimental Methods in Machine Learning",
-            "link": "https://example.com/quasi-experimental-ml",
-            "keywords": ["Quasi-Experimental Machine Learning"]
-        },
-        {
-            "title": "Applications of Large Language Models",
-            "link": "https://example.com/large-language-models",
-            "keywords": ["Large Language Models"]
+            "title": "Game Theory Applications in Marketing",
+            "url": "https://faculty.som.yale.edu/ksudhir/papers/game_theory",
+            "substantive_keywords": [
+                "Game Theory",
+                "Marketing"
+            ],
+            "methodological_keywords": [
+                "Dynamic Modeling",
+                "Simulations"
+            ]
         }
     ]
 }

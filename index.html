@@ -1,40 +1,34 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research Papers by K. Sudhir</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/yale-theme.css">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>Resume with Keywords</title>
 </head>
 <body>
     <header>
-        <h1>Research Papers by K. Sudhir</h1>
-        <p>Select a keyword to filter research papers by topic.</p>
+        <h1>My Academic Papers</h1>
     </header>
-
-    <section id="keywords">
-        <h2>Keywords</h2>
-        <div id="substantive-keywords" class="keyword-group">
-            <h3>Substantive</h3>
-            <ul></ul>
-        </div>
-        <div id="methodological-keywords" class="keyword-group">
-            <h3>Methodological</h3>
-            <ul></ul>
-        </div>
-    </section>
-
-    <section id="papers">
-        <h2>Research Papers</h2>
-        <ul id="paper-list">
-            <!-- Papers will be dynamically inserted here -->
-        </ul>
-    </section>
-
-    <footer>
-        <p>Source: Yale School of Management</p>
-    </footer>
-
+    <main>
+        <section id="keywords">
+            <h2>Keywords</h2>
+            <div id="substantive-keywords">
+                <h3>Substantive</h3>
+                <ul id="substantive-list"></ul>
+            </div>
+            <div id="methodological-keywords">
+                <h3>Methodological</h3>
+                <ul id="methodological-list"></ul>
+            </div>
+        </section>
+        <section id="papers">
+            <h2>Papers</h2>
+            <ul id="paper-list"></ul>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
