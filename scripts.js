@@ -29,11 +29,11 @@ document.addEventListener('DOMContentLoaded', () => {
       function displayPapers(papers) {
         const papersList = document.getElementById('papers-list');
         papersList.innerHTML = '';
-        papers.forEach(paper => {
+        papers.forEach((paper, index) => {
           const paperItem = document.createElement('div');
           paperItem.className = 'paper-item';
           const title = document.createElement('h3');
-          title.textContent = paper.title;
+          title.textContent = `${index + 1}. ${paper.title}`;
           paperItem.appendChild(title);
           papersList.appendChild(paperItem);
         });

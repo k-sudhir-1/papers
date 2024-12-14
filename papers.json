@@ -1,8 +1,18 @@
 {
   "keywords": {
-    "industry": ["Retailing", "Social Networks", "B2B Markets"],
-    "substantive": ["Product Diffusion", "Buzz Marketing", "Adoption", "Market Share Contracts"],
-    "methodological": ["Quasi-Experimental", "Structural Modeling"]
+    "industry": ["Retailing", "Social Networks", "B2B Markets", "Auto", "Entertainment"],
+    "substantive": [
+      "Product Diffusion", 
+      "Buzz Marketing", 
+      "Adoption", 
+      "Market Share Contracts", 
+      "Marketing Organizations", 
+      "Sales and Service", 
+      "Advertising", 
+      "Pricing", 
+      "Privacy and Personalization"
+    ],
+    "methodological": ["Structural", "Quasi-Experimental", "Machine Learning", "Game Theory"]
   },
   "papers": [
     {
@@ -19,6 +29,14 @@
         "industry": ["Social Networks"],
         "substantive": ["Buzz Marketing", "Adoption"],
         "methodological": ["Quasi-Experimental"]
+      }
+    },
+    {
+      "title": "“A Structural Model of Organizational Buying for B2B Markets: Innovation Diffusion and Market Share Contracts,” (with Navid Mojir), Journal of Marketing Research, Forthcoming.",
+      "keywords": {
+        "industry": ["B2B Markets"],
+        "substantive": ["Market Share Contracts"],
+        "methodological": ["Structural"]
       }
     }
   ]
