@@ -12,6 +12,7 @@ header, footer {
 
 h1, h2, h3 {
     color: #0073b7;
+    text-align: center;
 }
 
 ul {
