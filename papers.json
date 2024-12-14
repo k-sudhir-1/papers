@@ -1,40 +1,26 @@
 {
-    "papers": [
-        {
-            "title": "Understanding Consumer Behavior in Online Markets",
-            "url": "https://faculty.som.yale.edu/ksudhir/papers/consumer_behavior",
-            "substantive_keywords": [
-                "Consumer Behavior",
-                "Online Markets"
-            ],
-            "methodological_keywords": [
-                "Econometrics",
-                "Behavioral Models"
-            ]
-        },
-        {
-            "title": "Data Privacy and Market Regulation",
-            "url": "https://faculty.som.yale.edu/ksudhir/papers/data_privacy",
-            "substantive_keywords": [
-                "Privacy",
-                "Market Regulation"
-            ],
-            "methodological_keywords": [
-                "Structural Models",
-                "Policy Analysis"
-            ]
-        },
-        {
-            "title": "Game Theory Applications in Marketing",
-            "url": "https://faculty.som.yale.edu/ksudhir/papers/game_theory",
-            "substantive_keywords": [
-                "Game Theory",
-                "Marketing"
-            ],
-            "methodological_keywords": [
-                "Dynamic Modeling",
-                "Simulations"
-            ]
-        }
-    ]
+  "papers": [
+    {
+      "title": "A Structural Model of Organizational Buying for B2B Markets: Innovation Diffusion and Market Share Contracts",
+      "authors": ["K. Sudhir", "Navid Mojir"],
+      "journal": "Journal of Marketing Research",
+      "status": "Forthcoming",
+      "keywords": {
+        "industry": ["B2B Markets"],
+        "substantive": ["Innovation Diffusion", "Market Share Contracts"],
+        "methodological": ["Structural Modeling"]
+      }
+    },
+    {
+      "title": "Can Random Friends Seed More Buzz and Adoption? Leveraging the Friendship Paradox",
+      "authors": ["K. Sudhir", "Vineet Kumar"],
+      "journal": "Management Science",
+      "status": "Forthcoming",
+      "keywords": {
+        "industry": ["Social Networks"],
+        "substantive": ["Buzz Marketing", "Adoption"],
+        "methodological": ["Quasi-Experimental"]
+      }
+    }
+  ]
 }
