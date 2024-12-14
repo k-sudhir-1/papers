@@ -1,21 +1,20 @@
 {
+  "keywords": {
+    "industry": ["Retailing", "Social Networks", "B2B Markets"],
+    "substantive": ["Product Diffusion", "Buzz Marketing", "Adoption", "Market Share Contracts"],
+    "methodological": ["Quasi-Experimental", "Structural Modeling"]
+  },
   "papers": [
     {
-      "title": "A Structural Model of Organizational Buying for B2B Markets: Innovation Diffusion and Market Share Contracts",
-      "authors": ["K. Sudhir", "Navid Mojir"],
-      "journal": "Journal of Marketing Research",
-      "status": "Forthcoming",
+      "title": "“Investigating New Product Diffusion across Products and Countries,” (with Debabrata Talukdar and Andrew Ainslie), Marketing Science, Winter 2002.",
       "keywords": {
-        "industry": ["B2B Markets"],
-        "substantive": ["Innovation Diffusion", "Market Share Contracts"],
-        "methodological": ["Structural Modeling"]
+        "industry": ["Retailing"],
+        "substantive": ["Product Diffusion"],
+        "methodological": ["Quasi-Experimental"]
       }
     },
     {
-      "title": "Can Random Friends Seed More Buzz and Adoption? Leveraging the Friendship Paradox",
-      "authors": ["K. Sudhir", "Vineet Kumar"],
-      "journal": "Management Science",
-      "status": "Forthcoming",
+      "title": "“Can Random Friends Seed More Buzz and Adoption? Leveraging the Friendship Paradox,” (with Vineet Kumar), Management Science, Forthcoming.",
       "keywords": {
         "industry": ["Social Networks"],
         "substantive": ["Buzz Marketing", "Adoption"],

@@ -3,32 +3,16 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(response => response.json())
     .then(data => {
       const papers = data.papers;
-      const keywords = {
-        industry: new Set(),
-        substantive: new Set(),
-        methodological: new Set()
-      };
+      const keywords = data.keywords;
 
-      // Extract keywords
-      papers.forEach(paper => {
-        Object.keys(paper.keywords).forEach(category => {
-          paper.keywords[category].forEach(keyword => {
-            keywords[category].add(keyword);
-          });
-        });
-      });
-
-      // Populate keyword lists
+      // Populate buttons for each category
       Object.keys(keywords).forEach(category => {
-        const ul = document.getElementById(`${category}-keywords`);
+        const container = document.getElementById(`${category}-buttons`);
         keywords[category].forEach(keyword => {
-          const li = document.createElement('li');
-          const a = document.createElement('a');
-          a.href = '#';
-          a.textContent = keyword;
-          a.addEventListener('click', () => filterPapers(category, keyword));
-          li.appendChild(a);
-          ul.appendChild(li);
+          const button = document.createElement('button');
+          button.textContent = keyword;
+          button.addEventListener('click', () => filterPapers(category, keyword));
+          container.appendChild(button);
         });
       });
 
@@ -50,16 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
           paperItem.className = 'paper-item';
           const title = document.createElement('h3');
           title.textContent = paper.title;
-          const authors = document.createElement('p');
-          authors.textContent = `Authors: ${paper.authors.join(', ')}`;
-          const journal = document.createElement('p');
-          journal.textContent = `Journal: ${paper.journal}`;
-          const status = document.createElement('p');
-          status.textContent = `Status: ${paper.status}`;
           paperItem.appendChild(title);
-          paperItem.appendChild(authors);
-          paperItem.appendChild(journal);
-          paperItem.appendChild(status);
           papersList.appendChild(paperItem);
         });
       }

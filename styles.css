@@ -24,23 +24,25 @@ nav {
   text-align: center;
 }
 
-.filter-group ul {
-  list-style-type: none;
-  padding: 0;
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
 }
 
-.filter-group li {
-  text-align: center;
-  margin: 0.5em 0;
+.button-group button {
+  background-color: #00356B;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-.filter-group li a {
-  text-decoration: none;
-  color: #00356B;
-}
-
-.filter-group li a:hover {
-  text-decoration: underline;
+.button-group button:hover {
+  background-color: #00509E;
 }
 
 main {
