@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #f4f4f9;
+    background-color: #f6f6f6;
     color: #333;
 }
 
@@ -10,13 +10,25 @@ header, footer {
     margin-bottom: 20px;
 }
 
-h1, h2 {
-    color: #007BFF;
+h1, h2, h3 {
+    color: #0073b7;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+}
+
+#keywords {
+    margin-bottom: 30px;
+}
+
+.keyword-group {
+    margin-bottom: 20px;
+}
+
+#keywords h3 {
+    margin-bottom: 10px;
 }
 
 #keywords ul {
@@ -28,15 +40,15 @@ ul {
 
 #keywords a {
     text-decoration: none;
-    color: #fff;
-    background-color: #007BFF;
+    color: white;
+    background-color: #0073b7;
     padding: 8px 15px;
     border-radius: 5px;
     transition: all 0.3s ease;
 }
 
 #keywords a:hover {
-    background-color: #0056b3;
+    background-color: #005fa3;
 }
 
 #paper-list {
