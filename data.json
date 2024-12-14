@@ -1,0 +1,43 @@
+{
+    "keywords": {
+        "substantive": ["Retailing", "Emerging Markets", "Organization Buying", "Car Markets"],
+        "methodological": ["Structural Models", "Game Theory", "Quasi-Experimental Machine Learning", "Large Language Models"]
+    },
+    "papers": [
+        {
+            "title": "Retailing Dynamics",
+            "link": "https://example.com/retailing-dynamics",
+            "keywords": ["Retailing"]
+        },
+        {
+            "title": "Marketing in Emerging Economies",
+            "link": "https://example.com/emerging-markets",
+            "keywords": ["Emerging Markets"]
+        },
+        {
+            "title": "B2B Organization Buying Decisions",
+            "link": "https://example.com/organization-buying",
+            "keywords": ["Organization Buying"]
+        },
+        {
+            "title": "Structural Models for Car Markets",
+            "link": "https://example.com/car-markets",
+            "keywords": ["Car Markets", "Structural Models"]
+        },
+        {
+            "title": "Game Theory in Marketing",
+            "link": "https://example.com/game-theory",
+            "keywords": ["Game Theory"]
+        },
+        {
+            "title": "Quasi-Experimental Methods in Machine Learning",
+            "link": "https://example.com/quasi-experimental-ml",
+            "keywords": ["Quasi-Experimental Machine Learning"]
+        },
+        {
+            "title": "Applications of Large Language Models",
+            "link": "https://example.com/large-language-models",
+            "keywords": ["Large Language Models"]
+        }
+    ]
+}
