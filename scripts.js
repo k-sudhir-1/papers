@@ -1,42 +1,53 @@
-document.addEventListener('DOMContentLoaded', () => {
-  fetch('papers.json')
-    .then(response => response.json())
-    .then(data => {
-      const papers = data.papers;
-      const keywords = data.keywords;
+const dataUrl = 'papers.json'; // Path to your JSON file
 
-      // Populate buttons for each category
-      Object.keys(keywords).forEach(category => {
-        const container = document.getElementById(`${category}-buttons`);
-        keywords[category].forEach(keyword => {
-          const button = document.createElement('button');
-          button.textContent = keyword;
-          button.addEventListener('click', () => filterPapers(category, keyword));
-          container.appendChild(button);
+async function loadData() {
+    const response = await fetch(dataUrl);
+    const data = await response.json();
+    initializePage(data);
+}
+
+function initializePage(data) {
+    const keywordContainer = document.getElementById('keywords');
+    const paperList = document.getElementById('paper-list');
+    
+    const allKeywords = {
+        journal: data.keywords.journal,
+        topic: data.keywords.topic,
+        method: data.keywords.method
+    };
+
+    // Populate keywords
+    Object.keys(allKeywords).forEach(category => {
+        allKeywords[category].forEach(keyword => {
+            const button = document.createElement('button');
+            button.textContent = keyword;
+            button.className = 'keyword';
+            button.dataset.category = category;
+            button.dataset.keyword = keyword;
+            button.addEventListener('click', () => filterPapers(data.papers, category, keyword));
+            keywordContainer.appendChild(button);
         });
-      });
+    });
 
-      // Display all papers initially
-      displayPapers(papers);
+    // Display all papers initially
+    displayPapers(data.papers);
 
-      function filterPapers(category, keyword) {
-        const filteredPapers = papers.filter(paper =>
-          paper.keywords[category].includes(keyword)
+    function displayPapers(papers) {
+        paperList.innerHTML = '';
+        papers.forEach((paper, index) => {
+            const li = document.createElement('li');
+            li.textContent = `${index + 1}. ${paper.title}`; // Add numbering
+            paperList.appendChild(li);
+        });
+    }
+
+    function filterPapers(papers, category, keyword) {
+        const filteredPapers = papers.filter(paper => 
+            paper.keywords[category].includes(keyword)
         );
         displayPapers(filteredPapers);
-      }
+    }
+}
 
-      function displayPapers(papers) {
-        const papersList = document.getElementById('papers-list');
-        papersList.innerHTML = '';
-        papers.forEach((paper, index) => {
-          const paperItem = document.createElement('div');
-          paperItem.className = 'paper-item';
-          const title = document.createElement('h3');
-          title.textContent = `${index + 1}. ${paper.title}`;
-          paperItem.appendChild(title);
-          papersList.appendChild(paperItem);
-        });
-      }
-    });
-});
+// Load the data
+loadData();

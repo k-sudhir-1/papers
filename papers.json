@@ -82,6 +82,1029 @@
                     "Econometric Model"
                 ]
             }
+        },
+        {
+            "title": "Can Random Friends Seed More Buzz and Adoption? Leveraging the Friendship Paradox, (with Vineet Kumar), Management Science, Forthcoming.",
+            "keywords": {
+                "journal": [
+                    "Mngmt Sci"
+                ],
+                "topic": [
+                    "Social Networks",
+                    "Innovation Adoption"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "A Structural Model of Entry and Location Choice: The Differentiation-Agglomeration Tradeoff, (with Sumon Datta), Customer Needs and Solutions, December 2023.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "Retailing",
+                    "Entry Models"
+                ],
+                "method": [
+                    "Structural Modeling"
+                ]
+            }
+        },
+        {
+            "title": "Privacy Rights and Data Security: GDPR and Personal Data Driven Markets, (with Tony Ke), Management Science, August 2023.",
+            "keywords": {
+                "journal": [
+                    "Mngmt Sci"
+                ],
+                "topic": [
+                    "Consumer Protection",
+                    "Privacy",
+                    "Personalization"
+                ],
+                "method": [
+                    "Game Theory"
+                ]
+            }
+        },
+        {
+            "title": "A Structural Model of Organizational Buying for B2B Markets: Innovation Diffusion and Market Share Contracts, (with Navid Mojir), Journal of Marketing Research, Forthcoming.",
+            "keywords": {
+                "journal": [
+                    "JMR"
+                ],
+                "topic": [
+                    "B2B Markets"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Optimal Inter-release Time Between Sequentially Released Products, (with Jackie Luan), Customer Needs and Solutions, Forthcoming.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "Product Diffusion",
+                    "Entertainment"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Attribute Sentiment Scoring with Online Text Reviews: Accounting for Language Structure and Attribute Self-Selection, (with Ishita Chakraborty and Minkyung Kim), Journal of Marketing Research, January 2022.",
+            "keywords": {
+                "journal": [
+                    "JMR"
+                ],
+                "topic": [
+                    "Online Reviews',
+                    'Platforms"
+                ],
+                "method": [
+                    "AI/ML"
+                ]
+            }
+        },
+        {
+            "title": "Coresets for Time Series Clustering, (with Lingxiao Huang and Nisheeth Vishnoi), Advances in Neural Information Processing Systems (NeurIPS), 2021.",
+            "keywords": {
+                "journal": [
+                    "CS Conf"
+                ],
+                "topic": [
+                    "Coresets"
+                ],
+                "method": [
+                    "AI/ML"
+                ]
+            }
+        },
+        {
+            "title": "A Structural Model of a Multi-Tasking Salesforce: Job Task Allocation and Incentive Plan Design, (with Minkyung Kim and Kosuke Uetake), Management Science, September 2021.",
+            "keywords": {
+                "journal": [
+                    "Mngmt Sci"
+                ],
+                "topic": [
+                    "Marketing Organization",
+                    "Sales and Service"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Effects of Cost-Information Transparency on Intertemporal Price Discrimination, (with Baojun Jiang and Tianxin Zou), Production and Operations Management, 2021.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "Pricing"
+                ],
+                "method": [
+                    "Game Theory"
+                ]
+            }
+        },
+        {
+            "title": "A Model of Multi-Pass Search: Price Search Across Stores and Time, (with Navid Mojir), Management Science, April 2021.",
+            "keywords": {
+                "journal": [
+                    "Mngmt Sci"
+                ],
+                "topic": [
+                    "Pricing"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "The Causal Effect of Service Satisfaction on Customer Loyalty, (with Guofang Huang), Management Science, January 2021.",
+            "keywords": {
+                "journal": [
+                    "Mngmt Sci"
+                ],
+                "topic": [
+                    "Sales and Service"
+                ],
+                "method": [
+                    "Quasi-Experimental",
+                    "Surveys"
+                ]
+            }
+        },
+        {
+            "title": "Coresets for Regressions with Panel Data, (with Lingxiao Huang and Nisheeth Vishnoi), Advances in Neural Information Processing Systems, 2020. Computation and Society Blog.",
+            "keywords": {
+                "journal": [
+                    "CS Conf"
+                ],
+                "topic": [
+                    "Coresets"
+                ],
+                "method": [
+                    "AI/ML"
+                ]
+            }
+        },
+        {
+            "title": "How can Machine Learning Aid Behavioral Marketing Research?, Marketing Letters (with Linda Hagen, Kosuke Uetake, Nathan Yang et al.), July 2020.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "AI/ML"
+                ],
+                "method": [
+                    "Review"
+                ]
+            }
+        },
+        {
+            "title": "Managing Customer Relationships Through a Salesforce, (with Minkyung Kim, Kosuke Uetake and Rodrigo Canales), Journal of Marketing Research, October 2019.",
+            "keywords": {
+                "journal": [
+                    "JMR"
+                ],
+                "topic": [
+                    "CRM",
+                    "Sales and Service"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "How Context Affects Choice, (with Thomadsen, Rooderkerk et al.), Customer Needs and Solutions, November 2017.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "Consumer Behavior"
+                ],
+                "method": [
+                    "Quasi-Experimental"
+                ]
+            }
+        },
+        {
+            "title": "Do Sympathy Biases Affect Charitable Giving? The Effects of Advertising Content, (with Subroto Roy and Mathew Cherian), Marketing Science, November 2016.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Advertising",
+                    "Non-profit"
+                ],
+                "method": [
+                    "Field Experiments"
+                ]
+            }
+        },
+        {
+            "title": "Do Store Brands Aid Store Loyalty?, (with Satheeshkumar Seenivasan and Debu Talukdar), Management Science, March 2016.",
+            "keywords": {
+                "journal": [
+                    "Mngmt Sci"
+                ],
+                "topic": [
+                    "Retailing",
+                    "CRM"
+                ],
+                "method": [
+                    "Quasi-Experimental"
+                ]
+            }
+        },
+        {
+            "title": "Early Adoption of Modern Retail in an Emerging Market: Evidence from India, (with Vishal Narayan and Vithala Rao), Marketing Science, Nov-Dec 2015.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Emerging Markets"
+                    "Retailing"
+                    "Product Adoption"
+                ],
+                "method": [
+                    "Econometric Model"
+                ]
+            }
+        },
+        {
+            "title": "Research Opportunities in Emerging Markets: an Inter-disciplinary Perspective from Marketing, Economics, and Psychology, (with JB Priester et al.), Customer Needs and Solutions, December 2015.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "Emerging Markets"
+                ],
+                "method": [
+                    "Review"
+                ]
+            }
+        },
+        {
+            "title": "Short Run Needs and Long Term Goals: A Dynamic Model of Thirst Management, (with Guofang Huang and Ahmed Khwaja), Marketing Science, Sep-Oct 2015.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Unspecified"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "The Peter Pan Syndrome in Emerging Markets: The Productivity-Transparency Tradeoff in IT Adoption, (with Debu Talukdar), Marketing Science, July-August 2015.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Product Adoption",
+                    "Emerging Markets"
+                ],
+                "method": [
+                    "Quasi-Experimental",
+                    "Surveys"
+                ]
+            }
+        },
+        {
+            "title": "Education Consumption in an Emerging Market, (with Sachin Sancheti), Customer Needs and Solutions, December 2014.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "Emerging Markets"
+                ],
+                "method": [
+                    "Econometric Model",
+                    "Surveys"
+                ]
+            }
+        },
+        {
+            "title": "Do Bonuses Enhance Sales Productivity? A Dynamic Structural Analysis of Bonus Based Compensation Plans, (with Doug Chung and Thomas Steenburgh), Marketing Science, March-April 2014.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Marketing Organization",
+                    "Sales & Service"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Does Reducing Spatial Differentiation Increase Product Differentiation? Effects of Zoning on Retail Entry and Format Variety, (with Sumon Datta), Quantitative Marketing and Economics, March 2013.",
+            "keywords": {
+                "journal": [
+                    "QME"
+                ],
+                "topic": [
+                    "Retailing"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Customer Cost Based Pricing, (with Jiwoong Shin and Dae-Hee Yoon), Management Science, May 2012.",
+            "keywords": {
+                "journal": [
+                    "Mngmt Sci"
+                ],
+                "topic": [
+                    "Pricing"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Do Private Labels Increase Retailer Bargaining Power?, (with Sergio Meza), Quantitative Marketing and Economics, Sep 2010.",
+            "keywords": {
+                "journal": [
+                    "QME"
+                ],
+                "topic": [
+                    "Retailing"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Empirical Models of Manufacturer-Retailer Interactions-A Review and Agenda for Future Research, (with Kusum Ailawadi et al.), Marketing Letters, September 2010.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "Retailing"
+                ],
+                "method": [
+                    "Review"
+                ]
+            }
+        },
+        {
+            "title": "A Customer Management Dilemma: When is it Profitable to Reward Own Customers, (with Jiwoong Shin), Marketing Science, June \u2013 July 2010.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "CRM"
+                    "Personalization"
+                ],
+                "method": [
+                    "Game Theory"
+                ]
+            }
+        },
+        {
+            "title": "Forecasting Marketing Mix Responsiveness for New Products, (with Jackie Luan), Journal of Marketing Research, June 2010.",
+            "keywords": {
+                "journal": [
+                    "JMR"
+                ],
+                "topic": [
+                    "Entertainment",
+                    "Endogeneity"
+                ],
+                "method": [
+                    "Econometric Model"
+                ]
+            }
+        },
+        {
+            "title": "Switching Costs and Market Competitiveness: De-Constructing the Relationship, (with Jiwoong Shin), Journal of Marketing Research, August 2009.",
+            "keywords": {
+                "journal": [
+                    "JMR"
+                ],
+                "topic": [
+                    "CRM",
+                    "Pricing"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "The Temporal and Spatial Dimensions of Price Search: Insights from Matching Household Survey and Purchase Data, (with Dinesh Gauri and Debabrata Talukdar), Journal of Marketing Research, February 2008.",
+            "keywords": {
+                "journal": [
+                    "JMR"
+                ],
+                "topic": [
+                    "Pricing",
+                    "Search"
+                ],
+                "method": [
+                    "Econometric Modeling"
+                ]
+            }
+        },
+        {
+            "title": "Optimal Marketing Strategies for a Customer Data Intermediary, (with Joseph Pancras), Journal of Marketing Research, November 2007.",
+            "keywords": {
+                "journal": [
+                    "JMR"
+                ],
+                "topic": [
+                    "Personalization",
+                    "Pricing"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Competitive Pricing under State Dependent Demand: Do Firms Look Ahead? How Far Ahead?, (with Hai Che and P.B. Seetharaman), Journal of Marketing Research, August 2007.",
+            "keywords": {
+                "journal": [
+                    "JMR"
+                ],
+                "topic": [
+                    "Pricing"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Passthrough Timing, (with Sergio Meza), Quantitative Marketing and Economics, December 2006.",
+            "keywords": {
+                "journal": [
+                    "QME"
+                ],
+                "topic": [
+                    "Retailing",
+                    "Pricing"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Do Slotting Allowances Enhance Efficiency or Hinder Competition?, (with Vithala R. Rao), Journal of Marketing Research, May 2006.",
+            "keywords": {
+                "journal": [
+                    "JMR"
+                ],
+                "topic": [
+                    "Retailing, Product Adoption"
+                ],
+                "method": [
+                    "Quasi-Experimental",
+                    "Surveys"
+                ]
+            }
+        },
+        {
+            "title": "Recent Advances in Structural Modeling: Dynamics, Product Positioning and Entry, Marketing Letters, December 2005.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "Unspecified"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Time Varying Competition, (with Pradeep Chintagunta and Vrinda Kadiyali), Marketing Science, Winter 2005.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Pricing"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "When Shopbots Meet Emails: Implications for Price Competition on the Internet, (with Yuxin Chen), Quantitative Marketing and Economics, 2004.",
+            "keywords": {
+                "journal": [
+                    "QME"
+                ],
+                "topic": [
+                    "Pricing"
+                ],
+                "method": [
+                    "Game Theory"
+                ]
+            }
+        },
+        {
+            "title": "Does Store Brand Patronage Improve Store Patronage?, Review of Industrial Organization, March 2004.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "CRM",
+                    "Retailing"
+                ],
+                "method": [
+                    "Surveys"
+                ]
+            }
+        },
+        {
+            "title": "Structural Applications of the Discrete Choice Model, (with Jean-Pierre Dube et al.), Marketing Letters, August 2002.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "Unspecified"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Investigating New Product Diffusion across Products and Countries, (with Debabrata Talukdar and Andrew Ainslie), Marketing Science, Winter 2002.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Product Adoption",
+                    "Emerging Markets"
+                ],
+                "method": [
+                    "Quasi-Experimental"
+                ]
+            }
+        },
+        {
+            "title": "A Multiple Ideal Point Model: Capturing Multiple Preference Effects from Within an Ideal Point Framework, (with Jack Lee and Joel Steckel), Journal of Marketing Research, February 2002.",
+            "keywords": {
+                "journal": [
+                    "JMR"
+                ],
+                "topic": [
+                    "Demand Model"
+                ],
+                "method": [
+                    "Surveys, Econometric Modeling"
+                ]
+            }
+        },
+        {
+            "title": "Structural Analysis of Manufacturer Pricing in the Presence of a Strategic Retailer, Marketing Science, Summer 2001.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Retailer",
+                    "Pricing"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Structural Analysis of Competitive Behavior: New Empirical Industrial Organization Methods in Marketing, (with Vrinda Kadiyali and Vithala R. Rao), International Journal of Research in Marketing, June 2001.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "Pricing"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Competitive Pricing Behavior in the US Auto Market: A Structural Analysis, Marketing Science, Winter 2001.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Pricing"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Editorial: Acknowledgments, Stocktaking and Farewell, Marketing Science, November-December 2021.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Unspecified"
+                ],
+                "method": [
+                    "Editorial"
+                ]
+            }
+        },
+        {
+            "title": "Editorial: Introduction to the Special Issue on Marketing Science and Health, (with Kusum Ailawadi, Tat Chan and Puneet Manchanda), Marketing Science, May-June 2020.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Health"
+                ],
+                "method": [
+                    "Editorial"
+                ]
+            }
+        },
+        {
+            "title": "Editorial: Introduction to the Special Issue on Consumer Protection, (with Avi Goldfarb and Ginger Jin), Marketing Science, January-February 2020.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Consumer Protection"
+                ],
+                "method": [
+                    "Editorial"
+                ]
+            }
+        },
+        {
+            "title": "Editorial: An Update on the Frontiers Section, Marketing Science, November-December 2019.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Unspecified"
+                ],
+                "method": [
+                    "Editorial"
+                ]
+            }
+        },
+        {
+            "title": "Editorial: Introduction to the Special Section on Mobile Technologies, Marketing Science, September-October 2019.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Digital Marketing"
+                ],
+                "method": [
+                    "Editorial"
+                ]
+            }
+        },
+        {
+            "title": "Editorial: Introducing a New Section---Marketing Science: Frontiers, Marketing Science, January-February 2018.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Unspecified"
+                ],
+                "method": [
+                    "Editorial"
+                ]
+            }
+        },
+        {
+            "title": "Editorial: The Exploration-Exploitation Tradeoff and Efficiency in Knowledge Production, Marketing Science, January-February 2016.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Unspecified"
+                ],
+                "method": [
+                    "Editorial"
+                ]
+            }
+        },
+        {
+            "title": "Editorial: Marketing Science in Emerging Markets, (with Laxman Narasimhan and Kannan Srinivasan), Marketing Science, July-August 2015.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Emerging Markets"
+                ],
+                "method": [
+                    "Editorial"
+                ]
+            }
+        },
+        {
+            "title": "Artificial Intelligence in Marketing, Review of Marketing Research, Vol. 20, Emerald Publishing Limited. (Co-edited with Oliver Toubia).",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "AI/ML"
+                ],
+                "method": [
+                    "Book"
+                ]
+            }
+        },
+        {
+            "title": "The State of AI Research in Marketing: Active, Fertile and Ready for Explosive Growth, (with Olivier Toubia), in Artificial Intelligence in Marketing (Vol. 20, pp. 1-12). Emerald Publishing Limited.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "AI"
+                ],
+                "method": [
+                    "AI/ML"
+                ]
+            }
+        },
+        {
+            "title": "Should you Punish or Reward Current Customers?, (with Jiwoong Shin), Sloan Management Review, 2013.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "CRM"
+                ],
+                "method": [
+                    "Game Theory"
+                ]
+            }
+        },
+        {
+            "title": "Motivating Diverse Salespeople through a Common Incentive Plan, (with Doug Chung and Thomas Steenburgh), European Financial Management Review, 2013.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "Sales and Service"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Publishing in China and India: Opportunities and Challenges, Publishing Research Quarterly, 2010.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "Emerging Markets"
+                ],
+                "method": [
+                    "Review"
+                ]
+            }
+        },
+        {
+            "title": "Pricing in Marketing Channels, (with Sumon Datta), Handbook of Pricing, Ed. Vithala Rao, Edward Elgar Publishers, 2008.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "Pricing in Channels"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "An Artificial Intelligence Approach to Precedence Network Generation in Assembly Line Balancing, Computers in Industry, 1992.",
+            "keywords": {
+                "journal": [
+                    "Other"
+                ],
+                "topic": [
+                    "AI"
+                ],
+                "method": [
+                    "AI/ML"
+                ]
+            }
+        },
+        {
+            "title": "Product Development at Lean Startups: The Effect of Entrepreneurial Incentives, (with Steve Yoo), Submitted for 2nd round review at Marketing Science.",
+            "keywords": {
+                "journal": [
+                    "WP"
+                ],
+                "topic": [
+                    "Innovation",
+                    "Entrepreneurship"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Greedy or Grateful? Asking for More when Thanking Donors, (with Hortense Fong and Subroto Roy), submitted for 2nd round review at Journal of Marketing Research.",
+            "keywords": {
+                "journal": [
+                    "WP"
+                ],
+                "topic": [
+                    "CRM",
+                    "Non-Profit"
+                ],
+                "method": [
+                    "Experimental Design"
+                ]
+            }
+        },
+        {
+            "title": "Long Term Effects of Experience during Youth: Evidence from China, (with Ishani Tewari), Invited for 3rd round review at Journal of Marketing Research.",
+            "keywords": {
+                "journal": [
+                    "WP"
+                ],
+                "topic": [
+                    "Emerging Markets"
+                ],
+                "method": [
+                    "Quasi-Experimental"
+                ]
+            }
+        },
+        {
+            "title": "Can Customer Ratings be Discrimination Amplifiers? Evidence from a Gig Economy Platform, Revision Requested at Marketing Science.",
+            "keywords": {
+                "journal": [
+                    "WP"
+                ],
+                "topic": [
+                    "Online Platforms"
+                ],
+                "method": [
+                    "Econometric Modeling"
+                ]
+            }
+        },
+        {
+            "title": "Match Uncertainty in Online Channels: Dynamic Mechanism Design of Price and Return Policies, (with Amit Pazgal and Li Yang), Revision Requested at Management Science.",
+            "keywords": {
+                "journal": [
+                    "WP"
+                ],
+                "topic": [
+                    "Pricing"
+                ],
+                "method": [
+                    "Game Theory"
+                ]
+            }
+        },
+        {
+            "title": "Consumer Guilt and Sustainable Choice: Environmental Impact of Durable Goods Innovation, (with Ramesh Shankar and Yuan Jin), Revision Requested at Marketing Science.",
+            "keywords": {
+                "journal": [
+                    "WP"
+                ],
+                "topic": [
+                    "Sustainability"
+                ],
+                "method": [
+                    "Game Theory"
+                ]
+            }
+        },
+        {
+            "title": "Lookalike Targeting on Others' Journeys: Brand Versus Performance Marketing, (with Seung Yoon Lee and Subroto Roy), To be submitted to Marketing Science.",
+            "keywords": {
+                "journal": [
+                    "WP"
+                ],
+                "topic": [
+                    "Advertising"
+                ],
+                "method": [
+                    "Field Experiments"
+                ]
+            }
+        },
+        {
+            "title": "Measuring Revenue Economies of Scope: Can Gas Stations Increase Grocery Revenues for Supermarkets?, (with Boudhayan Sen and Jiwoong Shin).",
+            "keywords": {
+                "journal": [
+                    "WP"
+                ],
+                "topic": [
+                    "Retailing"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Predicting Individual Response with Aggregate Data: A Conditional Means Approach, (with Jason Duan and Sachin Sancheti).",
+            "keywords": {
+                "journal": [
+                    "WP"
+                ],
+                "topic": [
+                    "Personalization"
+                ],
+                "method": [
+                    "Quasi-Experimental"
+                ]
+            }
+        },
+        {
+            "title": "Dynamic Market Structure in a Durable Goods Market: The Effect of a New Product Form, (with Jackie Luan).",
+            "keywords": {
+                "journal": [
+                    "WP"
+                ],
+                "topic": [
+                    "Market Structure"
+                ],
+                "method": [
+                    "Structural"
+                ]
+            }
+        },
+        {
+            "title": "Exploiting the Choice-Consumption Mismatch: A New Approach to Disentangle State Dependence and Heterogeneity, (with Nathan Yang), Being revised for resubmission to Management Science.",
+            "keywords": {
+                "journal": [
+                    "WPr"
+                ],
+                "topic": [
+                    "Choice Models"
+                ],
+                "method": [
+                    "Quasi-Experimental"
+                ]
+            }
         }
     ]
 }
