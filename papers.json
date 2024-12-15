@@ -8,7 +8,7 @@
             "IJRM",
             "CS Conf",
             "Other",
-            "WkgPpr"
+            "WP"
         ],
         "topic": [
             "Product Adoption",
@@ -105,7 +105,8 @@
                     "Other"
                 ],
                 "topic": [
-                    "Retailing, Entry Models"
+                    "Retailing",
+                    "Entry Models"
                 ],
                 "method": [
                     "Structural Modeling"
@@ -164,7 +165,8 @@
                     "JMR"
                 ],
                 "topic": [
-                    "Online Reviews, Platforms"
+                    "Online Reviews',
+                    'Platforms"
                 ],
                 "method": [
                     "AI/ML"
@@ -192,7 +194,8 @@
                     "Mngmt Sci"
                 ],
                 "topic": [
-                    "Marketing Organization, Sales and Service"
+                    "Marketing Organization",
+                    "Sales and Service"
                 ],
                 "method": [
                     "Structural"
@@ -366,7 +369,7 @@
                     "Mkt Sci"
                 ],
                 "topic": [
-                    "nan"
+                    "Unspecified"
                 ],
                 "method": [
                     "Structural"
@@ -497,7 +500,7 @@
                     "JMR"
                 ],
                 "topic": [
-                    "Entertainment"
+                    "Entertainment",
                     "Endogeneity"
                 ],
                 "method": [
@@ -542,7 +545,7 @@
                     "JMR"
                 ],
                 "topic": [
-                    "Personalization"
+                    "Personalization",
                     "Pricing"
                 ],
                 "method": [
@@ -601,7 +604,7 @@
                     "Other"
                 ],
                 "topic": [
-                    "nan"
+                    "Unspecified"
                 ],
                 "method": [
                     "Structural"
@@ -658,7 +661,7 @@
                     "Other"
                 ],
                 "topic": [
-                    "nan"
+                    "Unspecified"
                 ],
                 "method": [
                     "Structural"
@@ -672,7 +675,7 @@
                     "Mkt Sci"
                 ],
                 "topic": [
-                    "Product Adoption"
+                    "Product Adoption",
                     "Emerging Markets"
                 ],
                 "method": [
@@ -744,7 +747,7 @@
                     "Mkt Sci"
                 ],
                 "topic": [
-                    "nan"
+                    "Unspecified"
                 ],
                 "method": [
                     "Editorial"
@@ -786,7 +789,7 @@
                     "Mkt Sci"
                 ],
                 "topic": [
-                    "nan"
+                    "Unspecified"
                 ],
                 "method": [
                     "Editorial"
@@ -814,7 +817,7 @@
                     "Mkt Sci"
                 ],
                 "topic": [
-                    "nan"
+                    "Unspecified"
                 ],
                 "method": [
                     "Editorial"
@@ -828,7 +831,7 @@
                     "Mkt Sci"
                 ],
                 "topic": [
-                    "nan"
+                    "Unspecified"
                 ],
                 "method": [
                     "Editorial"
@@ -1009,7 +1012,7 @@
             "title": "Match Uncertainty in Online Channels: Dynamic Mechanism Design of Price and Return Policies, (with Amit Pazgal and Li Yang), Revision Requested at Management Science.",
             "keywords": {
                 "journal": [
-                    "EP"
+                    "WP"
                 ],
                 "topic": [
                     "Pricing"
