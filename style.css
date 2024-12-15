@@ -1,77 +1,46 @@
+
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    line-height: 1.6;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e4e8eb; /* Light blue background */
+    background-color: #f5f5f5;
+    color: #333;
 }
-
 header {
-    background-color: #00356b; /* Yale Blue */
-    color: #ffffff;
+    background-color: #0f4d92;
+    color: white;
+    padding: 20px;
     text-align: center;
-    padding: 1.5rem;
 }
-
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-}
-
 main {
-    margin: 2rem auto;
-    max-width: 1200px;
+    padding: 20px;
 }
-
-h2, h3 {
-    color: #00356b; /* Yale Blue for headings */
-    text-align: center;
-}
-
-#keyword-columns {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 2rem;
-}
-
-.keyword-column {
-    flex: 1;
-    margin: 0 1rem;
-    text-align: center;
-}
-
-.keyword-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    justify-content: center;
-}
-
-.keyword {
-    background-color: #ffffff; /* White buttons */
-    border: 1px solid #666666; /* Gray borders */
-    padding: 0.5rem 1rem;
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #0f4d92;
+    color: white;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 0.9rem;
-    transition: background-color 0.3s, color 0.3s;
 }
-
-.keyword:hover {
-    background-color: #00356b; /* Yale Blue on hover */
-    color: #ffffff; /* White text on hover */
+button:hover {
+    background-color: #003366;
 }
-
-#paper-list {
-    list-style: none;
-    padding: 0;
-}
-
-#paper-list li {
-    background: #ffffff;
-    margin: 0.5rem 0;
-    padding: 1rem;
-    border: 1px solid #666666; /* Gray borders */
+.card {
+    background-color: white;
+    margin: 15px 0;
+    padding: 15px;
     border-radius: 5px;
-    font-size: 0.9rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.filters {
+    margin-bottom: 20px;
+}
+.filters div {
+    margin-bottom: 10px;
+}
+.filters label {
+    margin-right: 10px;
+    font-weight: bold;
 }
