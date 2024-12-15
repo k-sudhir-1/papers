@@ -50,7 +50,7 @@
                     "Advertising"
                 ],
                 "method": [
-                    "Sales and Service"
+                    ""Sales and Service""
                 ]
             }
         },
@@ -168,7 +168,7 @@
                 ],
                 "topic": [
                     "Online Reviews",
-                    "Platforms"
+                    'Platforms"
                 ],
                 "method": [
                     "AI-ML"
