@@ -3,27 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academic Resume</title>
+    <title>Research Resume</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1>Academic Resume</h1>
-        <p>Select keywords to filter relevant publications</p>
+        <h1>Research Resume</h1>
+        <p>Click on keywords to view related papers</p>
     </header>
     <main>
         <section id="filters">
-            <h3>Keywords</h3>
-            <div id="keyword-buttons" class="button-container"></div>
+            <div>
+                <h2>Journals</h2>
+                <div id="journal-filters" class="filter-buttons"></div>
+            </div>
+            <div>
+                <h2>Topics</h2>
+                <div id="topic-filters" class="filter-buttons"></div>
+            </div>
+            <div>
+                <h2>Methods</h2>
+                <div id="method-filters" class="filter-buttons"></div>
+            </div>
         </section>
         <section id="papers">
-            <h2>Publications</h2>
+            <h2>Relevant Papers</h2>
             <ul id="paper-list"></ul>
         </section>
     </main>
     <footer>
-        <p>Powered by GitHub Pages</p>
+        <p>&copy; 2024 Your Name</p>
     </footer>
 </body>
 </html>

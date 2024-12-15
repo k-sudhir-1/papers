@@ -1,47 +1,37 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const keywordDataUrl = './papers.json'; // Path to JSON file
+    const keywordDataUrl = './papers.json'; // Path to the JSON file
+    const journalFilters = document.getElementById('journal-filters');
+    const topicFilters = document.getElementById('topic-filters');
+    const methodFilters = document.getElementById('method-filters');
     const paperList = document.getElementById('paper-list');
-    const keywordButtons = document.getElementById('keyword-buttons');
 
     let allPapers = [];
-    let allKeywords = new Set();
 
     // Fetch JSON data
     fetch(keywordDataUrl)
         .then(response => response.json())
         .then(data => {
             allPapers = data.papers;
-            extractKeywords(data.keywords);
-            renderPapers(allPapers);
+            createFilters(data.keywords.journal, journalFilters, 'journal');
+            createFilters(data.keywords.topic, topicFilters, 'topic');
+            createFilters(data.keywords.method, methodFilters, 'method');
         });
 
-    // Extract and render all unique keywords
-    function extractKeywords(keywords) {
-        Object.values(keywords).forEach(keywordList => {
-            keywordList.forEach(keyword => allKeywords.add(keyword));
-        });
-        renderKeywordButtons([...allKeywords]);
-    }
-
-    // Render keyword buttons
-    function renderKeywordButtons(keywords) {
+    // Create filters dynamically
+    function createFilters(keywords, container, type) {
         keywords.forEach(keyword => {
             const button = document.createElement('button');
             button.textContent = keyword;
-            button.addEventListener('click', () => filterPapersByKeyword(keyword));
-            keywordButtons.appendChild(button);
+            button.addEventListener('click', () => filterPapers(type, keyword));
+            container.appendChild(button);
         });
     }
 
-    // Filter papers by selected keyword
-    function filterPapersByKeyword(keyword) {
-        const filteredPapers = allPapers.filter(paper => {
-            return (
-                paper.keywords.journal?.includes(keyword) ||
-                paper.keywords.topic?.includes(keyword) ||
-                paper.keywords.method?.includes(keyword)
-            );
-        });
+    // Filter papers based on keyword
+    function filterPapers(type, keyword) {
+        const filteredPapers = allPapers.filter(paper => 
+            paper.keywords[type]?.includes(keyword)
+        );
         renderPapers(filteredPapers);
     }
 
@@ -49,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderPapers(papers) {
         paperList.innerHTML = '';
         if (papers.length === 0) {
-            paperList.innerHTML = '<li>No matching papers found.</li>';
+            paperList.innerHTML = '<li>No papers found for the selected keyword.</li>';
             return;
         }
         papers.forEach((paper, index) => {
