@@ -57,6 +57,8 @@ main {
 }
 
 .paper-item h3 {
+  font-size: 12pt;
+  font-weight: normal;
   margin: 0;
   color: #00356B;
 }
