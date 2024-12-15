@@ -14,13 +14,15 @@
             "Product Adoption",
             "Advertising",
             "Pricing",
+            "Retailing",
             "Privacy",
             "Personalization",
             "Social Networks",
             "Digital Marketing",
             "Platforms",
             "CRM",
-            "Sales & Service",
+            "Non-Profit",
+            "Sales and Service",
             "Marketing Organization",
             "B2B Markets",
             "AI"
@@ -60,7 +62,7 @@
                 ],
                 "topic": [
                     "Marketing Organization",
-                    "Sales & Service"
+                    "Sales and Service"
                 ],
                 "method": [
                     "AI/ML"
@@ -91,7 +93,7 @@
                 ],
                 "topic": [
                     "Social Networks",
-                    "Innovation Adoption"
+                    "Product Adoption"
                 ],
                 "method": [
                     "Structural"
@@ -165,8 +167,8 @@
                     "JMR"
                 ],
                 "topic": [
-                    "Online Reviews",
-                    "Platforms"
+                    "Online Reviews',
+                    'Platforms"
                 ],
                 "method": [
                     "AI/ML"
@@ -339,8 +341,8 @@
                     "Mkt Sci"
                 ],
                 "topic": [
-                    "Emerging Markets"
-                    "Retailing"
+                    "Emerging Markets",
+                    "Retailing",
                     "Product Adoption"
                 ],
                 "method": [
@@ -415,7 +417,7 @@
                 ],
                 "topic": [
                     "Marketing Organization",
-                    "Sales & Service"
+                    "Sales and Service"
                 ],
                 "method": [
                     "Structural"
@@ -485,7 +487,7 @@
                     "Mkt Sci"
                 ],
                 "topic": [
-                    "CRM"
+                    "CRM",
                     "Personalization"
                 ],
                 "method": [
@@ -589,7 +591,8 @@
                     "JMR"
                 ],
                 "topic": [
-                    "Retailing, Product Adoption"
+                    "Retailing",
+                    "Product Adoption"
                 ],
                 "method": [
                     "Quasi-Experimental",
@@ -693,7 +696,8 @@
                     "Demand Model"
                 ],
                 "method": [
-                    "Surveys, Econometric Modeling"
+                    "Surveys",
+                    "Econometric Modeling"
                 ]
             }
         },
@@ -957,7 +961,7 @@
                     "WP"
                 ],
                 "topic": [
-                    "Innovation",
+                    "Product",
                     "Entrepreneurship"
                 ],
                 "method": [
@@ -1004,7 +1008,7 @@
                     "Online Platforms"
                 ],
                 "method": [
-                    "Econometric Modeling"
+                    "Econometric Model"
                 ]
             }
         },
@@ -1029,6 +1033,7 @@
                     "WP"
                 ],
                 "topic": [
+                    "Product",
                     "Sustainability"
                 ],
                 "method": [
