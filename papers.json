@@ -31,7 +31,7 @@
             "Structural",
             "Quasi-Experimental",
             "Econometric Model",
-            "AI/ML",
+            "AI-ML",
             "Game Theory",
             "Surveys",
             "Field Experiment",
@@ -50,7 +50,7 @@
                     "Advertising"
                 ],
                 "method": [
-                    "AI/ML"
+                    ""Sales and Service""
                 ]
             }
         },
@@ -65,7 +65,7 @@
                     "Sales and Service"
                 ],
                 "method": [
-                    "AI/ML"
+                    "AI-ML"
                 ]
             }
         },
@@ -171,7 +171,7 @@
                     'Platforms"
                 ],
                 "method": [
-                    "AI/ML"
+                    "AI-ML"
                 ]
             }
         },
@@ -185,7 +185,7 @@
                     "Coresets"
                 ],
                 "method": [
-                    "AI/ML"
+                    "AI-ML"
                 ]
             }
         },
@@ -257,7 +257,7 @@
                     "Coresets"
                 ],
                 "method": [
-                    "AI/ML"
+                    "AI-ML"
                 ]
             }
         },
@@ -268,7 +268,7 @@
                     "Other"
                 ],
                 "topic": [
-                    "AI/ML"
+                    "AI-ML"
                 ],
                 "method": [
                     "Review"
@@ -863,7 +863,7 @@
                     "Other"
                 ],
                 "topic": [
-                    "AI/ML"
+                    "AI-ML"
                 ],
                 "method": [
                     "Book"
@@ -880,7 +880,7 @@
                     "AI"
                 ],
                 "method": [
-                    "AI/ML"
+                    "AI-ML"
                 ]
             }
         },
@@ -950,7 +950,7 @@
                     "AI"
                 ],
                 "method": [
-                    "AI/ML"
+                    "AI-ML"
                 ]
             }
         },
