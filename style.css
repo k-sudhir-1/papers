@@ -1,16 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #e4e8eb; /* Light blue background */
 }
 
 header {
-    background-color: #00356b;
-    color: #fff;
+    background-color: #00356b; /* Yale Blue */
+    color: #ffffff;
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 header h1 {
@@ -19,11 +19,12 @@ header h1 {
 }
 
 main {
-    margin: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
 }
 
 h2, h3 {
-    color: #00356b;
+    color: #00356b; /* Yale Blue for headings */
     text-align: center;
 }
 
@@ -47,16 +48,18 @@ h2, h3 {
 }
 
 .keyword {
-    background-color: #e5e5e5;
-    border: 1px solid #ccc;
+    background-color: #ffffff; /* White buttons */
+    border: 1px solid #666666; /* Gray borders */
     padding: 0.5rem 1rem;
     cursor: pointer;
     border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .keyword:hover {
-    background-color: #00356b;
-    color: #fff;
+    background-color: #00356b; /* Yale Blue on hover */
+    color: #ffffff; /* White text on hover */
 }
 
 #paper-list {
@@ -65,9 +68,10 @@ h2, h3 {
 }
 
 #paper-list li {
-    background: #fff;
+    background: #ffffff;
     margin: 0.5rem 0;
     padding: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid #666666; /* Gray borders */
     border-radius: 5px;
+    font-size: 0.9rem;
 }
