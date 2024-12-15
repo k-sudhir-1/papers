@@ -25,13 +25,21 @@ main {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+    text-align: center; /* Center-align content within each column */
+}
+
+#filters > div {
+    display: flex;
+    flex-direction: column; /* Stack header and buttons vertically */
+    align-items: center;   /* Center the items horizontally */
+    width: 30%;            /* Adjust width for each column */
 }
 
 .filter-buttons {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: center;
+    justify-content: center; /* Center buttons horizontally within the column */
 }
 
 .filter-buttons button {
