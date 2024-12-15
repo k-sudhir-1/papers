@@ -3,13 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     color: #333;
 }
 
 /* Header Styling */
 header {
-    background-color: #4CAF50;
+    background-color: #002f5f;
     color: white;
     text-align: center;
     padding: 1rem;
@@ -23,6 +23,7 @@ main {
 /* Section Headings */
 h2, h3 {
     text-align: center;
+    color: #002f5f;
 }
 
 /* Keywords Section */
@@ -33,17 +34,14 @@ h2, h3 {
 
 #journal-group {
     flex: 1;
-    max-width: 20%;
 }
 
 #topic-group {
     flex: 2;
-    max-width: 50%;
 }
 
 #method-group {
     flex: 1;
-    max-width: 30%;
 }
 
 .keyword-list {
@@ -67,14 +65,8 @@ h2, h3 {
 
 /* Papers Section */
 #papers-list {
-    list-style: none;
     padding: 0;
-}
-
-#papers-list li {
-    margin: 0.5rem 0;
-    padding: 1rem;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    margin: 0 auto;
+    list-style: decimal;
+    max-width: 800px;
 }
