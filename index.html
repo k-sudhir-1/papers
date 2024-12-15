@@ -3,39 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research Papers by Keywords</title>
+    <title>Research Papers</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Research Papers by Keywords</h1>
+        <h1>Research Papers</h1>
     </header>
-
     <main>
-        <section id="filters">
-            <h2>Filter by Keywords</h2>
-            <div id="keywords">
-                <div class="keyword-group" id="journal-group">
+        <section id="keywords">
+            <h2>Keywords</h2>
+            <div id="keyword-columns">
+                <div class="keyword-column" id="journal-column">
                     <h3>Journal</h3>
-                    <div id="journal-keywords" class="keyword-list"></div>
+                    <div class="keyword-container"></div>
                 </div>
-                <div class="keyword-group" id="topic-group">
+                <div class="keyword-column" id="topic-column">
                     <h3>Topic</h3>
-                    <div id="topic-keywords" class="keyword-list"></div>
+                    <div class="keyword-container"></div>
                 </div>
-                <div class="keyword-group" id="method-group">
+                <div class="keyword-column" id="method-column">
                     <h3>Method</h3>
-                    <div id="method-keywords" class="keyword-list"></div>
+                    <div class="keyword-container"></div>
                 </div>
             </div>
         </section>
-
         <section id="papers">
-            <h2>Filtered Papers</h2>
-            <ol id="papers-list"></ol>
+            <h2>Papers</h2>
+            <ul id="paper-list">
+                <!-- Papers populated dynamically -->
+            </ul>
         </section>
     </main>
-
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,72 +1,73 @@
-/* General Styling */
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #f8f8f8;
 }
 
-/* Header Styling */
 header {
-    background-color: #002f5f;
-    color: white;
+    background-color: #00356b;
+    color: #fff;
     text-align: center;
     padding: 1rem;
 }
 
-/* Main Content Styling */
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
 main {
-    padding: 2rem;
+    margin: 2rem;
 }
 
-/* Section Headings */
 h2, h3 {
+    color: #00356b;
     text-align: center;
-    color: #002f5f;
 }
 
-/* Keywords Section */
-#keywords {
+#keyword-columns {
     display: flex;
-    gap: 1rem;
+    justify-content: space-around;
+    margin-bottom: 2rem;
 }
 
-#journal-group {
+.keyword-column {
     flex: 1;
+    margin: 0 1rem;
+    text-align: center;
 }
 
-#topic-group {
-    flex: 2;
-}
-
-#method-group {
-    flex: 1;
-}
-
-.keyword-list {
+.keyword-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 0.5rem;
+    justify-content: center;
 }
 
-.keyword-list div {
+.keyword {
+    background-color: #e5e5e5;
+    border: 1px solid #ccc;
     padding: 0.5rem 1rem;
-    background-color: #e0e0e0;
-    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    border-radius: 5px;
 }
 
-.keyword-list div:hover {
-    background-color: #c8c8c8;
+.keyword:hover {
+    background-color: #00356b;
+    color: #fff;
 }
 
-/* Papers Section */
-#papers-list {
+#paper-list {
+    list-style: none;
     padding: 0;
-    margin: 0 auto;
-    list-style: decimal;
-    max-width: 800px;
+}
+
+#paper-list li {
+    background: #fff;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
