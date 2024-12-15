@@ -2,13 +2,12 @@
     "keywords": {
         "journal": [
             "Marketing Science",
-            "Sales and Service",
-            "IJRM",
             "Management Science",
-            "Other",
             "JMR",
-            "CS Conferences",
             "QME",
+            "IJRM",
+            "CS Conferences",
+            "Other",
             "Working Paper"
         ],
         "topic": [
@@ -16,7 +15,7 @@
             "Advertising",
             "Pricing",
             "Privacy",
-            "TaPersonalization",
+            "Personalization",
             "Social Networks",
             "Digital Marketing",
             "Platforms",
@@ -26,22 +25,15 @@
             "B2B Markets"
         ],
         "method": [
-            "AI/ML",
-            "Econometric Modeling",
             "Structural Modeling",
-            "Game Theory",
             "Quasi-Experimental",
+            "Econometric Modeling",
+            "AI/ML",
+            "Game Theory",
             "Surveys",
-            "Review",
             "Field Experiments",
-            "Structural",
-            "Quasi-Experimental, Surveys",
-            "Survey Research",
-            "Surveys, Econometric Modeling",
-            "Editorial",
-            "nan",
-            "Machine Learning",
-            "Experimental Design"
+            "Review",
+            "Editorial"
         ]
     },
     "papers": [
