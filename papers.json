@@ -20,7 +20,7 @@
             "Digital Marketing",
             "Platforms",
             "CRM",
-            "Sales and Service",
+            "Sales & Service",
             "Marketing Organization",
             "B2B Markets",
             "AI"
@@ -60,7 +60,7 @@
                 ],
                 "topic": [
                     "Marketing Organization",
-                    "Sales and Service"
+                    "Sales & Service"
                 ],
                 "method": [
                     "AI/ML"
@@ -165,8 +165,8 @@
                     "JMR"
                 ],
                 "topic": [
-                    "Online Reviews',
-                    'Platforms"
+                    "Online Reviews",
+                    "Platforms"
                 ],
                 "method": [
                     "AI/ML"
@@ -339,8 +339,8 @@
                     "Mkt Sci"
                 ],
                 "topic": [
-                    "Emerging Markets",
-                    "Retailing",
+                    "Emerging Markets"
+                    "Retailing"
                     "Product Adoption"
                 ],
                 "method": [
@@ -415,7 +415,7 @@
                 ],
                 "topic": [
                     "Marketing Organization",
-                    "Sales and Service"
+                    "Sales & Service"
                 ],
                 "method": [
                     "Structural"
@@ -485,7 +485,7 @@
                     "Mkt Sci"
                 ],
                 "topic": [
-                    "CRM",
+                    "CRM"
                     "Personalization"
                 ],
                 "method": [
@@ -589,8 +589,7 @@
                     "JMR"
                 ],
                 "topic": [
-                    "Retailing",
-                    "Product Adoption"
+                    "Retailing, Product Adoption"
                 ],
                 "method": [
                     "Quasi-Experimental",
@@ -694,8 +693,7 @@
                     "Demand Model"
                 ],
                 "method": [
-                    "Surveys",
-                    "Econometric Modeling"
+                    "Surveys, Econometric Modeling"
                 ]
             }
         },

@@ -1,47 +1,50 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const keywordDataUrl = './papers.json'; // Path to JSON file
+    const paperList = document.getElementById('paper-list');
+    const journalFilters = document.getElementById('journal-filters');
+    const topicFilters = document.getElementById('topic-filters');
+    const methodFilters = document.getElementById('method-filters');
 
-document.addEventListener("DOMContentLoaded", () => {
-    fetch('papers.json')
+    let allPapers = [];
+
+    // Fetch JSON data
+    fetch(keywordDataUrl)
         .then(response => response.json())
         .then(data => {
-            const papers = data.papers;
-            const substantiveList = document.getElementById('substantive-list');
-            const methodologicalList = document.getElementById('methodological-list');
-            const paperList = document.getElementById('paper-list');
-
-            const keywordMap = { substantive: new Set(), methodological: new Set() };
-
-            papers.forEach(paper => {
-                paper.substantive_keywords.forEach(keyword => keywordMap.substantive.add(keyword));
-                paper.methodological_keywords.forEach(keyword => keywordMap.methodological.add(keyword));
-            });
-
-            const renderKeywords = (keywords, container, type) => {
-                keywords.forEach(keyword => {
-                    const li = document.createElement('li');
-                    li.textContent = keyword;
-                    li.addEventListener('click', () => filterPapers(type, keyword));
-                    container.appendChild(li);
-                });
-            };
-
-            renderKeywords(keywordMap.substantive, substantiveList, 'substantive');
-            renderKeywords(keywordMap.methodological, methodologicalList, 'methodological');
-
-            const renderPapers = (filteredPapers) => {
-                paperList.innerHTML = '';
-                filteredPapers.forEach(paper => {
-                    const li = document.createElement('li');
-                    li.innerHTML = `<a href="${paper.url}" target="_blank">${paper.title}</a>`;
-                    paperList.appendChild(li);
-                });
-            };
-            renderPapers(papers);
-
-            const filterPapers = (type, keyword) => {
-                const filtered = papers.filter(paper =>
-                    paper[`${type}_keywords`].includes(keyword)
-                );
-                renderPapers(filtered);
-            };
+            allPapers = data.papers;
+            createFilters('journal', data.keywords.journal, journalFilters);
+            createFilters('topic', data.keywords.topic, topicFilters);
+            createFilters('method', data.keywords.method, methodFilters);
+            renderPapers(allPapers);
         });
+
+    // Create filters dynamically
+    function createFilters(type, keywords, container) {
+        keywords.forEach(keyword => {
+            const li = document.createElement('li');
+            li.textContent = keyword;
+            li.dataset.type = type;
+            li.dataset.keyword = keyword;
+            li.addEventListener('click', () => filterPapers(type, keyword));
+            container.appendChild(li);
+        });
+    }
+
+    // Filter papers based on keyword
+    function filterPapers(type, keyword) {
+        const filteredPapers = allPapers.filter(paper =>
+            paper.keywords[type]?.includes(keyword)
+        );
+        renderPapers(filteredPapers);
+    }
+
+    // Render papers list
+    function renderPapers(papers) {
+        paperList.innerHTML = '';
+        papers.forEach((paper, index) => {
+            const li = document.createElement('li');
+            li.textContent = `${index + 1}. ${paper.title}`;
+            paperList.appendChild(li);
+        });
+    }
 });

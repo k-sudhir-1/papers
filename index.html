@@ -3,27 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Research Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Academic Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1>Research Papers</h1>
-        <p>Click on a keyword to filter papers by Journal, Topic, or Method.</p>
+        <h1>Academic Resume</h1>
+        <p>Filter by keywords to explore relevant publications</p>
     </header>
     <main>
         <section id="filters">
-            <h2>Filters</h2>
-            <div id="keywords"></div>
+            <div>
+                <h3>Journal</h3>
+                <ul id="journal-filters" class="filters"></ul>
+            </div>
+            <div>
+                <h3>Topic</h3>
+                <ul id="topic-filters" class="filters"></ul>
+            </div>
+            <div>
+                <h3>Method</h3>
+                <ul id="method-filters" class="filters"></ul>
+            </div>
         </section>
         <section id="papers">
-            <h2>Papers</h2>
+            <h2>Publications</h2>
             <ul id="paper-list"></ul>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>Powered by GitHub Pages</p>
     </footer>
-    <script src="scripts.js"></script>
 </body>
 </html>
