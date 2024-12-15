@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume with Keywords</title>
+    <title>Research Papers by Keywords</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,16 +14,16 @@
     <main>
         <section id="filters">
             <h2>Filter by Keywords</h2>
-            <div id="keywords">
-                <div class="keyword-group" id="journal-group">
+            <div id="keywords" style="display: flex; gap: 1rem;">
+                <div class="keyword-group" id="journal-group" style="flex: 1; max-width: 20%;">
                     <h3>Journal</h3>
                     <div id="journal-keywords" class="keyword-list"></div>
                 </div>
-                <div class="keyword-group" id="topic-group">
+                <div class="keyword-group" id="topic-group" style="flex: 2; max-width: 50%;">
                     <h3>Topic</h3>
                     <div id="topic-keywords" class="keyword-list"></div>
                 </div>
-                <div class="keyword-group" id="method-group">
+                <div class="keyword-group" id="method-group" style="flex: 1; max-width: 30%;">
                     <h3>Method</h3>
                     <div id="method-keywords" class="keyword-list"></div>
                 </div>

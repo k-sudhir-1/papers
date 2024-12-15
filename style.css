@@ -1,3 +1,4 @@
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,6 +7,7 @@ body {
     color: #333;
 }
 
+/* Header Styling */
 header {
     background-color: #4CAF50;
     color: white;
@@ -13,16 +15,35 @@ header {
     padding: 1rem;
 }
 
+/* Main Content Styling */
 main {
     padding: 2rem;
 }
 
+/* Section Headings */
 h2, h3 {
     text-align: center;
 }
 
-.keyword-group {
-    margin: 1rem 0;
+/* Keywords Section */
+#keywords {
+    display: flex;
+    gap: 1rem;
+}
+
+#journal-group {
+    flex: 1;
+    max-width: 20%;
+}
+
+#topic-group {
+    flex: 2;
+    max-width: 50%;
+}
+
+#method-group {
+    flex: 1;
+    max-width: 30%;
 }
 
 .keyword-list {
@@ -44,6 +65,7 @@ h2, h3 {
     background-color: #c8c8c8;
 }
 
+/* Papers Section */
 #papers-list {
     list-style: none;
     padding: 0;
