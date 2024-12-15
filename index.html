@@ -4,35 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Research Papers</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Research Papers</h1>
     </header>
     <main>
-        <section id="keywords">
-            <h2>Keywords</h2>
-            <div id="keyword-columns">
-                <div class="keyword-column" id="journal-column">
-                    <h3>Journal</h3>
-                    <div class="keyword-container"></div>
-                </div>
-                <div class="keyword-column" id="topic-column">
-                    <h3>Topic</h3>
-                    <div class="keyword-container"></div>
-                </div>
-                <div class="keyword-column" id="method-column">
-                    <h3>Method</h3>
-                    <div class="keyword-container"></div>
-                </div>
+        <section class="filters">
+            <div id="filter-journal" class="filter-group">
+                <h2>Journal</h2>
+                <div id="journal-buttons"></div>
+            </div>
+            <div id="filter-topic" class="filter-group">
+                <h2>Topic</h2>
+                <div id="topic-buttons"></div>
+            </div>
+            <div id="filter-method" class="filter-group">
+                <h2>Method</h2>
+                <div id="method-buttons"></div>
             </div>
         </section>
-        <section id="papers">
-            <h2>Papers</h2>
-            <ul id="paper-list">
-                <!-- Papers populated dynamically -->
-            </ul>
+        <section id="papers-list">
+            <h2>Matching Papers</h2>
+            <div id="papers-container"></div>
         </section>
     </main>
     <script src="script.js"></script>
