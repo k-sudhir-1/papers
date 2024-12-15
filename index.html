@@ -3,37 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research Resume</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+    <title>Interactive Research Resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Research Resume</h1>
-        <p>Click on keywords to view related papers</p>
+        <h1>Research Papers</h1>
+        <p>Click on a keyword to filter papers by Journal, Topic, or Method.</p>
     </header>
     <main>
         <section id="filters">
-            <div>
-                <h2>Journals</h2>
-                <div id="journal-filters" class="filter-buttons"></div>
-            </div>
-            <div>
-                <h2>Topics</h2>
-                <div id="topic-filters" class="filter-buttons"></div>
-            </div>
-            <div>
-                <h2>Methods</h2>
-                <div id="method-filters" class="filter-buttons"></div>
-            </div>
+            <h2>Filters</h2>
+            <div id="keywords"></div>
         </section>
         <section id="papers">
-            <h2>Relevant Papers</h2>
+            <h2>Papers</h2>
             <ul id="paper-list"></ul>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Your Name</p>
+        <p>&copy; 2024 K. Sudhir. All rights reserved.</p>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
