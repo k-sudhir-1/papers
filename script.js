@@ -41,7 +41,7 @@ function displayAllPapers() {
     paperList.innerHTML = ""; // Clear previous results
 
     const heading = document.getElementById("results-heading");
-    heading.textContent = "All Research Papers";
+    heading.textContent = "All Papers";
 
     papersData.papers.forEach((paper, index) => {
         const listItem = document.createElement("li");
