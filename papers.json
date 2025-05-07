@@ -14,7 +14,8 @@
             "Empirical IO",
             "CRM",
             "Marketing Organization",
-            "New Products",
+            "Products",
+            "Pricing",
             "Regulation and Policy",
             "Artificial Intelligence",
             "Emerging Markets"
@@ -32,7 +33,22 @@
     },
     "papers": [
         {
-            "title": "A Theory-Based Explainable Deep Learning Architecture for Music Emotion, (with Hortense Fong and Vineet Kumar), Marketing Science, Forthcoming.",
+            "title": "Entrepreneurs and Investors: Funding-Induced Distortions in Lean Startup Product Experiments and Innovation, (with Onesun Yoo and Zihao Zhao), Marketing Science, Forthcoming.",
+            "keywords": {
+                "journal": [
+                    "Mkt Sci"
+                ],
+                "topic": [
+                    "Products",
+                    "Products"
+                ],
+                "method": [
+                    "Game Theory"
+                ]
+            }
+        }, 
+        {
+            "title": "A Theory-Based Explainable Deep Learning Architecture for Music Emotion, (with Hortense Fong and Vineet Kumar), Marketing Science, January 2025.",
             "keywords": {
                 "journal": [
                     "Mkt Sci"
@@ -47,7 +63,7 @@
             }
         },
         {
-            "title": "AI and AI-human based Salesforce Hiring using Interview Videos, (with Ishita Chakraborty, Khai Chiong and Howard Dover), Marketing Science, Forthcoming.",
+            "title": "AI and AI-human based Salesforce Hiring using Interview Videos, (with Ishita Chakraborty, Khai Chiong and Howard Dover), Marketing Science, January 2025.",
             "keywords": {
                 "journal": [
                     "Mkt Sci"
@@ -77,7 +93,7 @@
             }
         },
         {
-            "title": "Can Random Friends Seed More Buzz and Adoption? Leveraging the Friendship Paradox, (with Vineet Kumar), Management Science, Forthcoming.",
+            "title": "Can Random Friends Seed More Buzz and Adoption? Leveraging the Friendship Paradox, (with Vineet Kumar), Management Science, January 2025.",
             "keywords": {
                 "journal": [
                     "Mngmt Sci"
